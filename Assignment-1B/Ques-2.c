@@ -1,6 +1,8 @@
 #include <stdio.h>
+#define MAX_ROWS 100
+#define MAX_COLS 100
 
-void transpose(int original[rows][cols], int transposed[cols][rows], int rows, int cols) {
+void transpose(int original[MAX_ROWS][MAX_COLS], int transposed[MAX_COLS][MAX_ROWS], int rows, int cols) {
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             transposed[j][i] = original[i][j];
@@ -8,12 +10,12 @@ void transpose(int original[rows][cols], int transposed[cols][rows], int rows, i
     }
 }
 
-int main() 
-{
+int main() {
+    int original[MAX_ROWS][MAX_COLS], transposed[MAX_COLS][MAX_ROWS];
     int rows, cols;
+
     printf("Enter the number of rows and columns for the matrix: ");
     scanf("%d %d", &rows, &cols);
-    int original[rows][cols], transposed[cols][rows];
 
     printf("Enter the elements of the matrix:\n");
     for (int i = 0; i < rows; i++) {
