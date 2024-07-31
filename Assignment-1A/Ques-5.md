@@ -18,15 +18,27 @@ gcc -o calculator calc.c functions.c
 Running the Application
 Once the program is compiled, you can run it from the command line by passing two integer arguments:
 
+<<<<<<< HEAD
 
 ./calculator <integer1> <integer2>
 For example:
 
 
+=======
+```sh
+./calculator <integer1> <integer2>
+For example:
+
+```sh
+>>>>>>> 29a937a (Added Assignment 1B)
 ./calculator 10 5
 Output
 The application will output the number of arguments passed, the first argument, and the results of the arithmetic operations:
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 29a937a (Added Assignment 1B)
 Calculator
 
 number of arguments passed: 3
