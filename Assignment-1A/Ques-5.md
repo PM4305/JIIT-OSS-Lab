@@ -14,24 +14,19 @@ This is a simple calculator application written in C. The application takes two 
 
 To compile the program, you need to have a C compiler installed. You can use the following commands to compile the application:
 
-```sh
 gcc -o calculator calc.c functions.c
 Running the Application
 Once the program is compiled, you can run it from the command line by passing two integer arguments:
 
-sh
-Copy code
+
 ./calculator <integer1> <integer2>
 For example:
 
-sh
-Copy code
+
 ./calculator 10 5
 Output
 The application will output the number of arguments passed, the first argument, and the results of the arithmetic operations:
 
-less
-Copy code
 Calculator
 
 number of arguments passed: 3
@@ -62,5 +57,3 @@ Creating a user-friendly interface for input and output.
 Expanding the program to handle floating-point arithmetic.
 Conclusion
 This simple calculator is a great starting point for learning basic C programming and understanding fundamental concepts such as command line arguments, function declarations, and modular programming. It provides a foundation upon which more complex applications can be built.
-
-css
